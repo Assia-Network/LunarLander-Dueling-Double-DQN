@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-20T08:01:20.923709-05:00",
+  "checkpoint_sha256": "0fae98eb963cf977ad5e11a8bb3976abc471c9ea4724377809966b81f1bc6627",
+  "model": {
+    "hidden_sizes": [
+      256,
+      256
+    ],
+    "activation": "ReLU",
+    "dueling": true,
+    "layer_norm": false,
+    "parameters": 69381,
+    "steps": 1752767,
+    "updates": 438119,
+    "generation": 211,
+    "episodes": 4220
+  },
+  "protocol": {
+    "seed_starts": [
+      1000000,
+      2000000,
+      3000000,
+      4000000,
+      5000000
+    ],
+    "n_per_group": 100,
+    "max_steps": 1000,
+    "epsilon": 0,
+    "gravity": -10.0,
+    "enable_wind": false,
+    "deterministic_argmax": true,
+    "criterion": "Terminación, módulo en reposo, sin game_over ni salida lateral"
+  },
+  "aggregate": {
+    "n": 500,
+    "successes": 466,
+    "failures": 34,
+    "success_rate": 0.932,
+    "ci95_wilson": [
+      0.9064790772661266,
+      0.9509334925750927
+    ],
+    "mean_return": 269.63867359032,
+    "std_return": 48.03796321606338,
+    "median_return": 279.7457540190103,
+    "return_ge_200": 466,
+    "outcomes": {
+      "Aterrizaje": 466,
+      "Choque": 15,
+      "Tiempo agotado": 19
+    }
+  },
+  "groups": [
+    {
+      "group": 1,
+      "n": 100,
+      "successes": 92,
+      "failures": 8,
+      "success_rate": 0.92,
+      "ci95_wilson": [
+        0.8500189229905152,
+        0.9589065385156187
+      ],
+      "mean_return": 266.3967215269583,
+      "std_return": 48.49401497647419,
+      "median_return": 275.55484552831626,
+      "return_ge_200": 92,
+      "outcomes": {
+        "Aterrizaje": 92,
+        "Choque": 3,
+        "Tiempo agotado": 5
+      }
+    },
+    {
+      "group": 2,
+      "n": 100,
+      "successes": 93,
+      "failures": 7,
+      "success_rate": 0.93,
+      "ci95_wilson": [
+        0.8625048526092675,
+        0.9656807389327268
+      ],
+      "mean_return": 270.6451108874759,
+      "std_return": 51.60980732827409,
+      "median_return": 280.5301178392716,
+      "return_ge_200": 93,
+      "outcomes": {
+        "Aterrizaje": 93,
+        "Choque": 4,
+        "Tiempo agotado": 3
+      }
+    },
+    {
+      "group": 3,
+      "n": 100,
+      "successes": 94,
+      "failures": 6,
+      "success_rate": 0.94,
+      "ci95_wilson": [
+        0.875231845541043,
+        0.9722138760368113
+      ],
+      "mean_return": 270.32733827468024,
+      "std_return": 42.72835408822133,
+      "median_return": 276.8676517575461,
+      "return_ge_200": 94,
+      "outcomes": {
+        "Aterrizaje": 94,
+        "Choque": 2,
+        "Tiempo agotado": 4
+      }
+    },
+    {
+      "group": 4,
+      "n": 100,
+      "successes": 93,
+      "failures": 7,
+      "success_rate": 0.93,
+      "ci95_wilson": [
+        0.8625048526092675,
+        0.9656807389327268
+      ],
+      "mean_return": 271.4574973658256,
+      "std_return": 40.67865106772401,
+      "median_return": 279.7537951508385,
+      "return_ge_200": 93,
+      "outcomes": {
+        "Aterrizaje": 93,
+        "Choque": 1,
+        "Tiempo agotado": 6
+      }
+    },
+    {
+      "group": 5,
+      "n": 100,
+      "successes": 94,
+      "failures": 6,
+      "success_rate": 0.94,
+      "ci95_wilson": [
+        0.875231845541043,
+        0.9722138760368113
+      ],
+      "mean_return": 269.3666998966603,
+      "std_return": 55.85898589306247,
+      "median_return": 282.9092629273149,
+      "return_ge_200": 94,
+      "outcomes": {
+        "Aterrizaje": 94,
+        "Choque": 5,
+        "Tiempo agotado": 1
+      }
+    }
+  ],
+  "random_baseline": {
+    "n": 100,
+    "successes": 0,
+    "failures": 100,
+    "success_rate": 0.0,
+    "ci95_wilson": [
+      0.0,
+      0.036993498206983715
+    ],
+    "mean_return": -199.53390851893448,
+    "std_return": 123.3763462551495,
+    "median_return": -155.70522089594746,
+    "return_ge_200": 0,
+    "outcomes": {
+      "Choque": 96,
+      "Fuera de zona": 4
+    }
+  },
+  "paired_policy_group1": {
+    "n": 100,
+    "successes": 92,
+    "failures": 8,
+    "success_rate": 0.92,
+    "ci95_wilson": [
+      0.8500189229905152,
+      0.9589065385156187
+    ],
+    "mean_return": 266.3967215269583,
+    "std_return": 48.49401497647419,
+    "median_return": 275.55484552831626,
+    "return_ge_200": 92,
+    "outcomes": {
+      "Aterrizaje": 92,
+      "Choque": 3,
+      "Tiempo agotado": 5
+    }
+  },
+  "best": {
+    "group": 3,
+    "seed": 3000003,
+    "return_total": 323.8151577673322,
+    "steps": 181,
+    "outcome": "Aterrizaje",
+    "success": 1,
+    "return_ge_200": 1,
+    "mean_q_margin": 0.2728709876537323,
+    "action_0_count": 65,
+    "action_1_count": 15,
+    "action_2_count": 74,
+    "action_3_count": 27
+  },
+  "worst": {
+    "group": 2,
+    "seed": 2000057,
+    "return_total": 45.31777303132218,
+    "steps": 141,
+    "outcome": "Choque",
+    "success": 0,
+    "return_ge_200": 0,
+    "mean_q_margin": 0.20005278289318085,
+    "action_0_count": 31,
+    "action_1_count": 22,
+    "action_2_count": 66,
+    "action_3_count": 22
+  },
+  "versions": {
+    "python": "3.12.3",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "gymnasium": "1.4.0",
+    "matplotlib": "3.11.2",
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39"
+  }
+}

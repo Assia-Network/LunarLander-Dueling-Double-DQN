@@ -1,0 +1,28 @@
+{
+  "training_name": "lunar_dueling_relu",
+  "created_at": "2026-10-19T16:14:56.915874-05:00",
+  "environment": "LunarLander-v3",
+  "hidden_sizes": [
+    256,
+    256
+  ],
+  "activation": "MiActivacion",
+  "activation_spec": {
+    "kind": "custom_class",
+    "class_name": "MiActivacion",
+    "source": "class MiActivacion(nn.Module):\n    \"\"\"Edita esta clase: la f\u00f3rmula debe usar operaciones de torch.\n\n    Mant\u00e9n aqu\u00ed sus constantes y par\u00e1metros para conservar la definici\u00f3n.\n    Si necesitas par\u00e1metros entrenables, decl\u00e1ralos con nn.Parameter.\n    \"\"\"\n    def __init__(self):\n        super().__init__()\n        # Ejemplo opcional: self.beta = nn.Parameter(torch.tensor(1.0))\n\n    def forward(self, x):\n        # Activaci\u00f3n inicial: ReLU. Sustituye esta expresi\u00f3n por tu f\u00f3rmula.\n        return torch.relu(x)\n        # Ejemplo: return x * torch.sigmoid(x) + 0.1 * torch.sin(x)\n        # Con beta entrenable: return x * torch.sigmoid(self.beta * x)\n",
+    "sha256": "62cbb4645059fb44dbee533f93e2b9c242ad9ca55d9211e6f918f76f9677ee58"
+  },
+  "seed": 0,
+  "learning_rate": 0.0001,
+  "num_generations": 50000,
+  "num_envs": 20,
+  "visible_envs": 5,
+  "eval_every_generations": 10,
+  "eval_episodes": 20,
+  "eval_seed": 100000,
+  "smoke": false,
+  "dueling": true,
+  "layer_norm": false,
+  "train_every": 4
+}

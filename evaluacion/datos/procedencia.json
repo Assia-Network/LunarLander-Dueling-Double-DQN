@@ -1,0 +1,13 @@
+{
+  "checkpoint_source": "experiments/lunar_dueling_relu__2026-10-19_16-14-56-915874/best.pt",
+  "sha256": "0fae98eb963cf977ad5e11a8bb3976abc471c9ea4724377809966b81f1bc6627",
+  "checks": [
+    "500 semillas distintas y suma de resultados verificada",
+    "Red reconstruida idéntica a QNetwork en 1000 estados de prueba",
+    "Repetición determinista de los vuelos mejor y peor",
+    "GIF decodificado: 47 frames, 900x700, 4820 ms",
+    "Revisión visual de figuras y diagramas",
+    "Enlaces locales del README verificados"
+  ],
+  "training_log_summary": "historial_generaciones.csv contiene el retorno medio por generación calculado a partir del registro de entrenamiento."
+}
