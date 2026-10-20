@@ -66,8 +66,8 @@ Identificador exacto del checkpoint:
 La observación es $s=(x,y,v_x,v_y,\theta,\omega,c_L,c_R)\in\mathbb{R}^8$. Las posiciones y velocidades se reciben en la representación del entorno. Los dos últimos valores indican contacto de las patas.
 
 $$
-h_1=\operatorname{ReLU}(W_1s+b_1),\qquad
-h_2=\operatorname{ReLU}(W_2h_1+b_2).
+h_1=\mathrm{ReLU}(W_1s+b_1),\qquad
+h_2=\mathrm{ReLU}(W_2h_1+b_2).
 $$
 
 $$

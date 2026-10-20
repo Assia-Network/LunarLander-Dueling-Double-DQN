@@ -1,7 +1,7 @@
 {
   ".gitignore": "56511b59f9dcb4735ae75c33df44a23383a330bcd386af7d9d7e5b75998bf4f4",
   "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
-  "README.md": "dc84a6c975706a574d82f085e7d2af630d942368fcface7a1272a04829be945c",
+  "README.md": "621248671092355f17b34fc2fc55ea880daaf63adbaadf344f5ef0a35d4a6f80",
   "evaluacion/animation/mejor_aterrizaje.gif": "492ad9b16a5d2813f0ac7f0874d97f18bef9eba09464ce3d0b28a23ea86129e9",
   "evaluacion/datos/azar.csv": "7f9a2aa16c363463c626ddb66df6dc366e32c1ea7a1a5aebdfb46bf7ffc691ec",
   "evaluacion/datos/config_entrenamiento.json": "c65320d2a1133bf2388fcaca767ab9428871c93a41fb99c02cc51174f2711fda",
@@ -15,7 +15,7 @@
   "evaluacion/datos/trayectoria_peor.npz": "83a25dd94662b71f7229963c7677b2425b4a109f0d1c4b137e53970cec5b4342",
   "evaluacion/datos/validacion_entrenamiento.jsonl": "e001fd80368b5559888212060b9ed3d7f8b7029dc44c6addd76fc0526308ba32",
   "evaluacion/diagramas.py": "eaa616d6d949df3f9630af1f4602d3ffb87d511a5e22e2047b493aabe675938d",
-  "evaluacion/documentar.py": "ad2bf6edeb6789cae22358d022ceee6a05e5310629cbb47632dac51b8494d1b9",
+  "evaluacion/documentar.py": "876a76ae80dbda6b260ccab8bfc1d2bbe44dec9e5d511c9409d8dc35f8f16f79",
   "evaluacion/fig/aciertos_semillas.pdf": "1c95442f5a18680c7b1b3a1e6a28d06cee28791147a136ad68bd6fc7a9cbdaea",
   "evaluacion/fig/aciertos_semillas.png": "0b923278efe2e151311c3baef4e7d2636e24ec67badfd9010815d3f851f3af47",
   "evaluacion/fig/aciertos_semillas.svg": "5e263ea2018ab5d37f0a6da5109b49fb756f78f8be3391bea09432ae88378fbd",
