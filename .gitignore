@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+_archive/
+experiments/
+evaluations/
+models/
+*.tmp
+# Se incluye evaluacion/datos/modelo_evaluado.pt para reproducir el informe.
