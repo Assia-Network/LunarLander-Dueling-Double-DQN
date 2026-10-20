@@ -1,0 +1,8 @@
+torch==2.14.1+cpu
+numpy==2.5.4
+gymnasium==1.4.0
+pygame-ce==2.5.8
+Box2D==2.3.10
+matplotlib==3.11.2
+Pillow==13.0.0
+Python 3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]
